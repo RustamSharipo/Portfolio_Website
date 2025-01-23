@@ -1,0 +1,139 @@
+@media(max-width: 1320px)
+{
+    .main_abilities_strings{
+        width: 1000px;
+    }
+    .main_abilities{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_additional_skills{
+        margin-left: 0;
+    }
+    .nav{
+        width: 100%;
+    }
+    .main_websites_block{
+        transform: translateX(10px);
+    }
+    .main_websites_block_2{
+        transform: translateX(-10px);
+    }
+}
+@media(max-width: 1280px)
+{
+    .main_additional_skills{
+        justify-content: space-around;
+    }
+    .main_aboutme{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .main_p_aboutme{
+        max-width: 1140px;
+    }
+    .about_me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width: 1024px)
+{
+    .h1_introduction{
+        font-size: 36px;
+    }
+    .p_introduction{
+        font-size: 20px;
+    }
+    .a_introduction{
+        padding: 20px;
+    }
+    .img_introduction{
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .main_websites{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_websites_block{
+        transform: translateY(10px);
+    }
+    .main_websites_block_2{
+        transform: translateY(10px);
+    }
+    .main_abilities_strings{
+        max-width: 720px;
+    }
+    .main_p_aboutme{
+        font-size: 20px;
+    }
+    .main_aboutme{
+        font-size: 40px;
+    }
+}
+@media(max-width: 720px)
+{
+    .img_introduction{
+        display: none;
+    }
+    .main_introduction{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .main_text{
+        margin-left: 0;
+    }
+    .h1_introduction{
+        margin-left: 0;
+    }
+    .p_introduction{
+        margin-left: 0;
+    }
+    .a_introduction{
+        margin-left: 0;
+    }
+    .main_abilities_strings{
+        max-width: 540px;
+    }
+    .footer_contact{
+        font-size: 17px;
+    }
+    .footer_contact_answer{
+        font-size: 17px;
+    }
+}
+@media(max-width:540px)
+{
+    .main_abilities_strings{
+        max-width: 320px;
+    }
+    .h2_additional_abilities{
+        font-size: 30px;
+    }
+    .h4_additional_skills{
+        font-size: 17px;
+    }
+    .footer_img{
+        margin-right: 0;
+    }
+    .footer_contacts{
+        margin-right: 20px;
+    }
+    .nav_instructions{
+        display: none;
+    }
+    .nav_img{
+        display: none;
+    }
+    .nav_content{
+        display: flex;
+        justify-content: center;
+    }
+}

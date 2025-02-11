@@ -76,6 +76,32 @@
         font-size: 40px;
     }
 }
+@media(max-width: 900px)
+{
+    .h1_introduction{
+        font-size: 24px;
+        margin-left: 0;
+    }
+    .p_introduction{
+        font-size: 16px;
+        margin-left: 0;
+    }
+    .img_introduction{
+        display: none;
+    }
+    .main_introduction{
+        justify-content: center;
+    }
+    .a_introduction{
+        margin-left: 0;
+    }
+    .footer_contact{
+        font-size: 16px;
+    }
+    .footer_contact_answer{
+        font-size: 16px;
+    }
+}
 @media(max-width: 720px)
 {
     .img_introduction{
@@ -108,6 +134,15 @@
     .footer_contact_answer{
         font-size: 17px;
     }
+    .nav_instructions{
+        display: none;
+    }
+    .nav_content{
+        justify-content: center;
+    }
+    .nav_img{
+        display: none;
+    }
 }
 @media(max-width:540px)
 {
@@ -135,5 +170,14 @@
     .nav_content{
         display: flex;
         justify-content: center;
+    }
+    .main_websites_block_2{
+        max-width: 400px;
+    }
+    .main_websites_block{
+        max-width: 400px;
+    }
+    .main_websites_img{
+        max-width: 300px;
     }
 }

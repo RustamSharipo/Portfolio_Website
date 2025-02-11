@@ -179,7 +179,7 @@ body {
     background: linear-gradient(45deg, #f64f59, #c471ed, #12c2e9);
     animation: gradient 3s ease infinite;
     background-size: 200%;
-    margin-left: 30%;
+    margin-bottom: 10%;
 }
 
 .main_websites_p {
@@ -203,9 +203,15 @@ body {
     animation: gradient 3s ease infinite;
     background-size: 200%;
     padding: 15px 52px;
+    display: flex;
+    justify-content: center;
 }
 
 .main_websites_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 500px;
     padding: 25px 25px 45px 25px;
 }

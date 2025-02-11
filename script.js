@@ -2,11 +2,13 @@ function onEntry(entry) {
     entry.forEach(change => {
       if (change.isIntersecting) {
        change.target.classList.add('element_show');
+      }else{
+        change.target.classList.remove('element_show');
       }
     });
   }
   let options = {
-    threshold: [0.5] };
+    threshold: [0.01] };
   let observer = new IntersectionObserver(onEntry, options);
   let elements = document.querySelectorAll('.main_websites_block');
   let elements_2 = document.querySelectorAll('.main_websites_block_2');

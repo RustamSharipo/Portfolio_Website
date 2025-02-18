@@ -271,6 +271,7 @@ body {
     transform: translateY(100px);
 }
 .main_abilities_string_level {
+    opacity: 0;
     width: 75%;
     height: 100%;
     border-radius: 20px;
@@ -278,37 +279,28 @@ body {
     background: linear-gradient(45deg, #f64f59, #c471ed, #12c2e9);
     animation: gradient 3s ease infinite;
     background-size: 200%;
-    animation: string 5s ease;
 }
 
-@keyframes string {
-    0% {
-        width: 10%;
-    }
 
-    100% {
-        width: 75%;
-    }
-}
 
 .main_abilities_string_level_beginer {
+    opacity: 0;
     width: 25%;
     height: 100%;
     border-radius: 20px;
     background: -webkit-linear-gradient(45deg, #f64f59, #c471ed, #12c2e9);
     background: linear-gradient(45deg, #f64f59, #c471ed, #12c2e9);
     background-size: 200%;
-    animation: string_beginer 5s ease;
 }
 
 .main_abilities_string_level_middle {
+    opacity: 0;
     width: 50%;
     height: 100%;
     border-radius: 20px;
     background: -webkit-linear-gradient(45deg, #f64f59, #c471ed, #12c2e9);
     background: linear-gradient(45deg, #f64f59, #c471ed, #12c2e9);
     background-size: 200%;
-    animation: string_middle 5s ease;
 }
 
 @keyframes string_beginer {
@@ -328,6 +320,15 @@ body {
 
     100% {
         width: 50%;
+    }
+}
+@keyframes string {
+    0% {
+        width: 10%;
+    }
+
+    100% {
+        width: 75%;
     }
 }
 
@@ -465,4 +466,16 @@ body {
     opacity: 1;
     transition: all 1.5s;
     transform: translateY(0%);
+}
+.main_abilities_string_level_beginer.element_show{
+    opacity: 1;
+    animation: string_beginer 5s ease, gradient 3s ease infinite;
+}
+.main_abilities_string_level_middle.element_show{
+    opacity: 1;
+    animation: string_middle 5s ease, gradient 3s ease infinite;
+}
+.main_abilities_string_level.element_show{
+    opacity: 1;
+    animation: string 5s ease, gradient 3s ease infinite;
 }
